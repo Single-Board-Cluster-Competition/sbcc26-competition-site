@@ -19,7 +19,7 @@ Describe your plan to report your system's power draw to the committee. In the p
 
 Example: 
 
-**| Item | Amount | Purpose | Expected Power Draw | Price|**
+| Item | Amount | Purpose | Expected Power Draw | Price|
 | -------- | ------- |------- |------- |------- |
 | Raspberry Pi 4B  | 16    | | | |
 | NETGEAR 24-Port Gigabit Ethernet Unmanaged Switch (JGS524) | 1     | | | |
