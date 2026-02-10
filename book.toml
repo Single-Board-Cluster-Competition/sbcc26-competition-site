@@ -1,6 +1,5 @@
 [book]
+title = "sbcc26-competition-site"
 authors = ["sbcc-committee"]
 language = "en"
-multilingual = false
-src = "src"
-title = "sbcc26-competition-site"
+src = "src" 
