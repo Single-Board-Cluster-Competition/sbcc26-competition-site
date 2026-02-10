@@ -1,4 +1,4 @@
-# Team
+# Team Name
 
 Team Logo here
 <!--
@@ -7,25 +7,36 @@ Team Logo here
 
 ## Diagram
 
-Architecture Diagram here
 
 ## Hardware
 
-List your hardware and rationale. The prices should be listed as a table. See the SBCC history page for examples. 
+Describe your hardware and explain the rationale behind hardware choices. 
+
+### Power monitoring
+Describe your plan to report your system's power draw to the committee. In the past we have had Grafana displays or livestreamed footage of the power reading; we will work with you to confirm the details of this plan. 
+
+### Hardware Table 
+
+Example: 
+
+| Item | Amount | Purpose | Expected Power Draw | Price|
+| -------- | ------- |------- |------- |------- |
+| Raspberry Pi 4B  | 16    | | | |
+| NETGEAR 24-Port Gigabit Ethernet Unmanaged Switch (JGS524) | 1     | | | |
 
 ## Software
 
-List your software and the rationale.  
+Describe your software stack and the rationale behind it.  
 
 ## Strategy
 
 ### Benchmarks
 
-List your strategy for completing the benchmarks. 
+Explain your initial strategy for completing the benchmarks. 
 
 ### Applications
 
-List your strategy for completing the applications. 
+Explain your initial strategy for completing the applications. 
 
 ## Team Details
 
