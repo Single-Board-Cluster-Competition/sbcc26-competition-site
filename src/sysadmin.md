@@ -1,4 +1,3 @@
-
 # Systems Overview
 
 Systems interview was added as another part of the competition. This was a late add, so it will be judged warmly.

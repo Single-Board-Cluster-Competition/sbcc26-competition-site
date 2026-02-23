@@ -1,4 +1,4 @@
-# Welcome to the Single Board Cluster Competition 2025.
+# Welcome to the Single Board Cluster Competition 2026.
 
 This site will contain all relevant info for competitors in terms of submissions and other logistics. For time-based announcements this site will reflect it when the time rolls over according to PST -- teams in forward time zones will be notified of specifics according to their local timezone.
 
@@ -20,10 +20,10 @@ Notice that you can submit benchmarks one hour after application details are rev
 
 ## FAQ <a id="faq"></a>
 
-### What is the bugdet for the hardware?
+### What is the price limit for the hardware?
 - 6000 USD, Use american MSRP for hardware cost when possible.
 
-### What is the power budget for the cluster?
+### What is the power limit for the cluster?
 - 250 Watts
 
 ### Are eGPUs allowed?

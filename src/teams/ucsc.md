@@ -1,6 +1,6 @@
-# Penguin Warriors
+# Not So Slow Slugs
 
-## San Diego Super Computing Center / University of California, San Diego
+## University of California, Santa Cruz
 
 ## Diagram
 

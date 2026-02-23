@@ -8,10 +8,10 @@ HPL is 160 GFLOP/s the scores for every other team will be 10\*(their score)/
 | Application | Weight | Normalized |
 |-------------|--------| ---------- |
 |HPL          | 10.8%  |      x     |
-|STREAM       | 10.8%  |      x     |
+|MDTest       | 10.8%  |            |
 |DLLAMA       | 16.2%  |            |
-|Hashcat      | 26.1%  |      x     |
-|Mystery App  | 26.1%  |      x     |
+|IQ Tree      | 26.1%  |            |
+|Mystery App  | 26.1%  |            |
 |Systems      | 10%    |            |
 |Total        | 100%   |      x     |
 

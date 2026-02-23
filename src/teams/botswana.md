@@ -1,8 +1,6 @@
-# NTHU
+# Tech Titans
 
-## National Tsing Hua University
-
-<img src="./logos/nthu.png" alt="NTHU Logo" height="200"/>
+## University of Botswana 
 
 ## Diagram
 

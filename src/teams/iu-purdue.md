@@ -1,6 +1,6 @@
-# Penguin Warriors
+# Crossroads Coders
 
-## San Diego Super Computing Center / University of California, San Diego
+## Indiana University / Purdue University
 
 ## Diagram
 

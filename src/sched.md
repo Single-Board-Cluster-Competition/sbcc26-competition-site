@@ -1,6 +1,6 @@
 # Schedule - based off any given teams local time
 
-Results and announcements will be done in Pacific Standard time. Most of the setup day can be disregarded for teams not at UCSD, minus the camera and video stream of a power meter.
+Results and announcements will be done in Pacific Standard time. Most of the setup day can be disregarded for teams not at UCSD, minus the camera and video MDTest of a power meter.
 
 |Start time/date | End time/Date | Cart Title | Cart Detail | Duration |
 |---|---|---|---|---|
@@ -11,11 +11,11 @@ Results and announcements will be done in Pacific Standard time. Most of the set
 |**Friday 4/11/24**|Competition Day 1|8:00 am to 5:00 pm|||
 |8:00 am | 12:00 pm (Noon) | [Benchmarks](./benchmark.md) begin || 4 hours |
 |12:00 pm || [Mystery App](./mystery.md) Revealed||
-|1:00 pm || **Benchmark Submissions** |HPL, STREAM, and DLLAMA||
-|12:00 pm |5:00pm|Applications|[Hashcat](./hashcat.md) and [Mystery App](./mystery.md)||
+|1:00 pm || **Benchmark Submissions** |HPL, MDTest, and DLLAMA||
+|12:00 pm |5:00pm|Applications|[IQ Tree](./IQ Tree.md) and [Mystery App](./mystery.md)||
 |5:00 pm |8:00am|Cluster Headless Runs|You must leave your cluster unattended and inaccessible, but you can schedule runs during the night/break.||
 |**Saturday 4/12/24**|Competition Day 2|8:00 am to 5:00 pm|||
-|8:00 am |3:00pm|Applications|[Hashcat](./hashcat.md) and [Mystery App](./mystery.md)||
+|8:00 am |3:00pm|Applications|[IQ Tree](./iqtree.md) and [Mystery App](./mystery.md)||
 |3:00 pm || **Final Submission** | Submit the final results of apps | |
 |3:00 pm | 5:00 pm | Tours/Campus | Possible datacenter tours if Ops is available. Grading in progress. | 2 hours |
 |5:00 pm || **Results Announced** |||
