@@ -1,0 +1,28 @@
+# Summary
+- [Home](./main.md)
+- [Teams](./teams.md)
+    - [Aalborg Supercomputer Klub](./teams/aau.md)
+    - [Crossroads Coders](./teams/iu-purdue.md)
+    - [Gigadawgs](./teams/mississippi.md)
+    - [HPC Brazil Force](./teams/brazil.md)
+    - [KU Supercomputing Club](./teams/ku.md)
+    - [Not So Slow Slugs](./teams/ucsc.md)
+    - [NTHU](./teams/nthu.md)
+    - [Penguin Warriors](./teams/ucsd2.md)
+    - [PlumJuice](./teams/rome.md)
+    - [RAMbo Clements](./teams/cu.md)
+    - [Team Kent Ridge](./teams/nus.md)
+    - [Tech Titans](./teams/botswana.md)
+    - [Those Who Node](./teams/ucsd1.md)
+<!-- - [Schedule](./sched.md) -->
+- [Initial Cluster Setup](./setup.md)
+- [HPL Rules and Validation](hpl.md)
+- [MDTest Rules and Validation](mdtest.md)
+- [D-LlAMA 3 8B Rules and Validation](./dllama.md)
+- [IQ Tree Rules and Validation](./iqtree.md)
+- [Mystery Application Rules and Validation](./mystery.md)
+- [Sysadmin](./sysadmin.md)
+- [Grading](./grading.md)
+- [Results](./results.md)
+<!-- Have not really written anything for this one
+- [About Us](./org.md) -->
