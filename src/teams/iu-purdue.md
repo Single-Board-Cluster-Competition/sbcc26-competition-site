@@ -2,6 +2,8 @@
 
 ## Indiana University / Purdue University
 
+<img src="./logos/iu-purdue.png" alt="Crossroads Coders Logo" height="200"/>
+
 ## Diagram
 
 ## Hardware

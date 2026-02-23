@@ -14,9 +14,4 @@ We will also be asking for a compressed files assembled from your logs such as `
 - Submit your *.dat file used for your submission run
 - Submit your output, usually called HPL.out by default if `file` is your output specified in your `*.dat` input.
 
-# MDTest
-
-Capture all relevant files/output and submit them. Details also on channel.
-
-
 ***Do not submit files twice***
