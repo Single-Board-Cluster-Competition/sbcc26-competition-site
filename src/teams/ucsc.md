@@ -2,6 +2,8 @@
 
 ## University of California, Santa Cruz
 
+<img src="./logos/ucsc.png" alt="UCSC Logo" height="200"/>
+
 ## Diagram
 
 ## Hardware

@@ -14,7 +14,8 @@
   - They are connected to our switch via a cat6 ethernet cable  
   - We power the Rock Pis via USB-C power cables  
 - 2x MV-V7E500 500GB SSDs (1 TB total)   
-  - 1 SSD will be on the login node, while the other will be on a different node (we may call this the secondary login node) 
+  - 1 SSD will be on the login node, while the other will be on a different node (we may call this the secondary login node)   
+- Jetson TX2 
 
 ### **Power monitoring**
 
@@ -29,7 +30,8 @@ During the early stages, we will set up node\_exporter on all the nodes in our c
 | MV-V7E500 500GB SSD | 2 |  | $79.00 | $158.00 |
 | Enclosure (DIY) | 1 | 0 | $79.92 | $79.92 |
 | Fan | 4 | 1.56 | 7.90 | $31.6 |
-| **TOTAL COST** |  |  |  | $3866.92 |
+| Jetson TX2  | 1 | 10W | $549.00 | $549.00 |
+| **TOTAL COST** |  |  |  | $4415.92 |
 
 ## **Software:**
 

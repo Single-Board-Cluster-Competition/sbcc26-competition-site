@@ -17,8 +17,8 @@
 <!-- - [Schedule](./sched.md) -->
 - [Initial Cluster Setup](./setup.md)
 - [HPL Rules and Validation](hpl.md)
-- [MDTest Rules and Validation](mdtest.md)
 - [D-LlAMA 3 8B Rules and Validation](./dllama.md)
+- [MDTest Rules and Validation](mdtest.md)
 - [IQ Tree Rules and Validation](./iqtree.md)
 - [Mystery Application Rules and Validation](./mystery.md)
 - [Sysadmin](./sysadmin.md)

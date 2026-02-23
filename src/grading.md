@@ -5,7 +5,7 @@ highest for that given application, i.e. if the highest benchmark result for
 HPL is 160 GFLOP/s the scores for every other team will be 10\*(their score)/
 (160 GFLOP/s).
 
-| Application | Weight | Normalized |
+| Application | Weight | Normalised |
 |-------------|--------| ---------- |
 |HPL          | 10.8%  |      x     |
 |MDTest       | 10.8%  |            |
