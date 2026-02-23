@@ -14,7 +14,7 @@
     - [Team Kent Ridge](./teams/nus.md)
     - [Tech Titans](./teams/botswana.md)
     - [Those Who Node](./teams/ucsd1.md)
-- [Schedule](./sched.md)
+<!-- - [Schedule](./sched.md) -->
 - [Initial Cluster Setup](./setup.md)
 - [HPL Rules and Validation](hpl.md)
 - [MDTest Rules and Validation](mdtest.md)
