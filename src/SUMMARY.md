@@ -14,15 +14,14 @@
     - [Team Kent Ridge](./teams/nus.md)
     - [Tech Titans](./teams/botswana.md)
     - [Those Who Node](./teams/ucsd1.md)
-<!-- - [Schedule](./sched.md) -->
+<!-- - [Schedule](./schedule.md) -->
 - [Initial Cluster Setup](./setup.md)
-- [HPL Rules and Validation](hpl.md)
+- [HPL Rules and Validation](./hpl.md)
 - [D-LlAMA 3 8B Rules and Validation](./dllama.md)
-- [MDTest Rules and Validation](mdtest.md)
+- [MDTest Rules and Validation](./mdtest.md)
 - [IQ Tree Rules and Validation](./iqtree.md)
 - [Mystery Application Rules and Validation](./mystery.md)
 - [Sysadmin](./sysadmin.md)
 - [Grading](./grading.md)
 - [Results](./results.md)
-<!-- Have not really written anything for this one
-- [About Us](./org.md) -->
+- [About Us](./org.md)

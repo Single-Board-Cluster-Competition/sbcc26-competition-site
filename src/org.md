@@ -1,10 +1,22 @@
-# Applications and Organizers
+# Organizers
 
-## Applications
+## Current Competition Organizers
 
-TODO
+- Abir Haque
+- Jackson Yang
+- Gauri Renjith
+- Ferrari Guan
 
-## Organizers
+## Previous Competition Organizers
 
-TODO
+We would like to thank all the previous competition organizers to their conributions to this competition. 
 
+- Francisco "Paco" Gutierrez 
+- Khai Vu
+- Ritoban Roy-Chowdhury
+- Benjamin Li
+- Casper Nyvang Sørensen
+- Zixian Wang
+- Shijie "Jacob" Wang
+- Zhiheng "Henry" Feng
+- Christian Ziegler "S3JER" Sejersen
