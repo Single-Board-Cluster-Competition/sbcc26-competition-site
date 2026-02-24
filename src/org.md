@@ -9,7 +9,7 @@
 
 ## Previous Competition Organizers
 
-We would like to thank all the previous competition organizers for their conributions to this competition. 
+We would like to thank all the previous competition organizers for their contributions to this competition. 
 
 - Francisco Fabian "Paco" Gutierrez 
 - Khai Vu
