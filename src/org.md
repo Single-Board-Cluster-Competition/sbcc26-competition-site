@@ -9,9 +9,9 @@
 
 ## Previous Competition Organizers
 
-We would like to thank all the previous competition organizers to their conributions to this competition. 
+We would like to thank all the previous competition organizers for their conributions to this competition. 
 
-- Francisco "Paco" Gutierrez 
+- Francisco Fabian "Paco" Gutierrez 
 - Khai Vu
 - Ritoban Roy-Chowdhury
 - Benjamin Li
