@@ -14,6 +14,7 @@ We originally expected to recieve \$6k in funding instead of having a \$6k budge
 
 ### Power monitoring
 
+For power monitoring, we will likely use a KASA python api, and create our own visualization. 
 
 ### Hardware Table 
 
@@ -25,7 +26,7 @@ We originally expected to recieve \$6k in funding instead of having a \$6k budge
 
 ## Software
 
-We will be using Ubuntu on all our devices due to it's familiarity and support. On top of that we will use Slurm scheduler to run the benchmarks on our cluster. For power monitoring, we will likely use a KASA python api, and create our own visualization. 
+We will be using Ubuntu on all our devices due to it's familiarity and support. On top of that we will use Slurm scheduler to run the benchmarks on our cluster. 
 
 ## Strategy
 
