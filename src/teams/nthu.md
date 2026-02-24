@@ -6,7 +6,7 @@
 
 ## Diagram
 
-![image](./diagrams/nthu-diagram.png)
+![NTHU Hardware Diagram](./diagrams/nthu-diagram.png)
 
 ## Hardware
 
