@@ -36,6 +36,9 @@ Notice that you can submit benchmarks one hour after application details are rev
 ### Can we use LLMs during the competition?
 - Yes. Only sharing information and getting advice from with mentors and individuals outside the competition should be avoided/not done. Communication in between teams and judges is allowed. Teams may also access the internet on their own computers, but not speak about the competition to others.
 
+### Can we wirelessly access our cluster during the competition?
+- No. Only wired access into your cluster is allowed. This is to prevent access during the night. 
+
 
 ## Join our Discord!
 <script>
