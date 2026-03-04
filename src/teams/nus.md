@@ -42,7 +42,7 @@ The setup (including PDU) will also be livestreamed via video. We are happy to p
 
 ### Hardware Table 
 
-| Category | Item | Amount | Description | Expected Power Draw (W) | Cost per unit (USD) | Total Price (USD) |
+| Category | Item | Description | Amount | Expected Power Draw (W) | Cost per unit (USD) | Total Price (USD) |
 | ------- |-------- | ------- |------- |------- |------- |------- |
 | Compute | Orange Pi 5 Max 16GB  | Single-Board Computer (SBC) | 16 | 200 | 249.00 | 3984.00 |
 | Storage | Crucial T500 PCIe Gen4x4 NVMe M.2 SSD (1TB) | NFS Drive | 3 | 10 | 214.00 | 642.00 |
