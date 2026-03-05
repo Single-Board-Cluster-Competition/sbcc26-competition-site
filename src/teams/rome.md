@@ -12,7 +12,7 @@
 
 Our hardware strategy focuses on maximizing compute density while maintaining a production-grade management layer.
 
-- **Head Node and Management**: For our head node, we utilize an Orange Pi 4+. This node acts as the cluster's Internet Gateway, routing traffic between the external competition network and our internal subnet. It also functions as the Control Node, hosting the Slurm controller (slurmctld) and serving a centralized NFS share. This ensures that all worker nodes have a consistent environment for binaries and home directories, which is critical when using Spack for package management.
+- **Head Node and Management**: For our head node, we utilize an Orange Pi 5+. This node acts as the cluster's Internet Gateway, routing traffic between the external competition network and our internal subnet. It also functions as the Control Node, hosting the Slurm controller (slurmctld) and serving a centralized NFS share. This ensures that all worker nodes have a consistent environment for binaries and home directories, which is critical when using Spack for package management.
 
 - **Compute Nodes**: The compute fabric consists of nine Raspberry Pi 5 nodes.
 
@@ -22,12 +22,12 @@ Our hardware strategy focuses on maximizing compute density while maintaining a 
 
 | **Item** | **Amount** | **Price (per unit)** | **Total Price** | **Expected Power Draw (per unit)** | **Cumulative Power Draw** | **Link** |
 | --- | --- | --- | --- | --- | --- | - |
-| Raspberry Pi 5 (4GB) | 6 | 105 USD | 630 USD | 5-10 W | 30 - 60 W | https://www.kubii.com/en/nano-computers/4106-1831-raspberry-pi-5-3272496315938.html#/ram-4_gb |
-| Raspberry Pi 5 (8GB) | 3 | 160 USD | 480 USD | 5-10 W | 15 - 30 W | https://www.kubii.com/en/nano-computers/4106-1832-raspberry-pi-5-3272496315938.html#/ram-8_gb |
-| Orange Pi 5 Plus (8GB) | 1 | 220 USD | 220 USD | 7-15 W | 7 - 15 W | https://orangepi.net/product/orange-pi-5-plus-8gb-ram |
-| Cooling Fans for Raspberry Pi 5 | 9 | 7 USD | 63 USD | 1-3 W | 9 - 27 W | https://www.kubii.com/en/fans-heat-sinks/4109-cooling-fan-for-raspberry-pi-5-5056561803357.html |
-| Official Raspberry Pi 27W USB-C Power Supplies | 10 | 15 USD | 150 USD | 1 W | 10 W | https://www.kubii.com/it/alimentatori/4107-1818-alimentatore-raspberry-pi-27w-usb-c-3272496315761.html#/colori-bianco/version_d_alimentation-unione_europea_ue |
-| Tenda TEG1024D 24-Port Gigabit Ethernet | 1 | 75 USD | 75 USD | 15 W | 15 W | https://www.amazon.it/Tenda-TEG1024D-Sdoppiatore-Montaggio-Struttura/dp/B002T4WXVO/ref=asc_df_B002T4WXVO?mcid=b2079ded079b3da48e4a2d3b2490663f&tag=googshopit-21&linkCode=df0&hvadid=700813659490&hvpos=&hvnetw=g&hvrand=13950705490473897463&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9217543&hvtargid=pla-1305966201998&hvocijid=13950705490473897463-B002T4WXVO-&hvexpln=0&th=1 |
+| Raspberry Pi 5 (4GB) | 6 | 105 USD | 630 USD | 5-10 W | 30 - 60 W | https://tinyurl.com/kubii-raspi5-4gb |
+| Raspberry Pi 5 (8GB) | 3 | 160 USD | 480 USD | 5-10 W | 15 - 30 W | https://tinyurl.com/kubii-raspi5 |
+| Orange Pi 5 Plus (8GB) | 1 | 220 USD | 220 USD | 7-15 W | 7 - 15 W | https://tinyurl.com/orangepi-5plus |
+| Cooling Fans for Raspberry Pi 5 | 9 | 7 USD | 63 USD | 1-3 W | 9 - 27 W | https://tinyurl.com/kubii-fan |
+| Official Raspberry Pi 27W USB-C Power Supplies | 10 | 15 USD | 150 USD | 1 W | 10 W | https://tinyurl.com/kubii-power-supply |
+| Tenda TEG1024D 24-Port Gigabit Ethernet | 1 | 75 USD | 75 USD | 15 W | 15 W | https://tinyurl.com/tenda-switch |
 | **Total** |  |  | **1618 USD** |  | **90 - 160 W** |  |
 
 ## Software
@@ -48,7 +48,7 @@ Our stack is designed to mirror an enterprise HPC environment, prioritizing repr
 
 - **HPL**: Our strategy relies on utilizing Spack to build a highly tuned OpenBLAS library. We will focus on finding the optimal P×Q grid and block sizes while using Slurm to pin processes to physical cores, eliminating context-switching overhead.
 
-- **MDTest**: We will optimize the NFS configuration on the Orange Pi 4+ to minimize metadata latency. By tuning mount options and leveraging the head node's dedicated CPU for I/O handling, we aim to sustain high file-operation rates across the cluster.
+- **MDTest**: We will optimize the NFS configuration on the Orange Pi 5+ to minimize metadata latency. By tuning mount options and leveraging the head node's dedicated CPU for I/O handling, we aim to sustain high file-operation rates across the cluster.
 
 ### Applications
 
