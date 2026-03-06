@@ -10,7 +10,8 @@ Most of the setup day can be "disregarded" except for camera and video stream of
 ## April 10, 2026 (Friday): Competition Day 1
 |Start time/date | End time/Date | Details | 
 |---|---|---|
-| 8:00 am | 1:00 pm | Teams will complete their official benchmark ([HPL](./hpl.md), [MDTest](./mdtest.md), and [DLLAMA](./dllama.md)) runs and submit them. |
+| 8:00 am | 8:30 am | Opening Ceremony |
+| 8:30 am | 1:00 pm | Teams will complete their official benchmark ([HPL](./hpl.md), [MDTest](./mdtest.md), and [DLLAMA](./dllama.md)) runs and submit them. |
 |12:00 pm (noon) | 5:00 pm | [Mystery Application](./mystery.md) is revealed at 12:00 pm. Teams will complete the applications ([IQ Tree](./iqtree.md) and [Mystery](./mystery.md)) and submit them.|
 | 5:00 pm | 8:00 am (the next day) | Teams must leave the cluster running, unattended, and inaccessible. A job scheduler is allowed. |
 
