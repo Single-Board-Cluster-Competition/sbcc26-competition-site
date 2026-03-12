@@ -12,14 +12,19 @@
 
 We plan to use one Raspberry Pi 4 as a login node, which will also act as a router. This node is the only node that can be accessed through the internet. The rest of the nodes will be connected to a switch through Ethernet connections, and can be accessed through the login node via ssh. We are connecting 4 SSDs to 4 Raspberry Pi 4s, 1 SSD to each Pi.
 
-## Power monitoring  
-We plan to set up a Grafana display on our team website for the supervising committee to monitor.
+## Power monitoring
+
+We plan to set up a Grafana display on our team website for the supervising committee to monitor. This Grafana display will be set up on the RPI 3, outside the power budget.
 
 ## Hardware Table 
 
 | Item | Amount | Purpose | Expected Power Draw | Price |
 | :---- | :---- | :---- | :---- | :---- |
 | Raspberry Pi 4B | 16 | Computing Equipment | 10W \* 16 \= 160W | $1200 |
+| Raspberry Pi 3 | 1 | Grafana Tracking | N/A | $35 |
+| Jetson Nano 4GB | 1 | Computing Equipment | 15W | $135 |
+| Jetson Nano 2GB | 1 | Computing Equipment | 15W | $59 |
+| Kodlix GN41 | 1 | Computing Equipment | 24W | $40 |
 | Lexar 64GB Micro SD | 16 | Storage | N/A | $224 |
 | NETGEAR 24-Port Gigabit Ethernet Unmanaged Switch (JGS524) | 1 | Switch | 40W | $150 |
 | Intel SSD DC S4500 Series 240GB | 1 | Storage | 3W | $155 |
@@ -28,7 +33,7 @@ We plan to set up a Grafana display on our team website for the supervising comm
 | Intel SSD D3-S4510 Series 240GB | 1 | Storage | 3W | $154 |
 | Power Supply | 1 | Supply power | N/A | $90 |
 | Fan | 1 | Cooling | 10W | $20 |
-| Short ethernet cable | 16 | Switch Connection | N/A | $25.44 |
+| Short ethernet cable | 19 | Switch Connection | N/A | $30.21 |
 | Long ethernet cable | 2 | Connection to outside internet | N/A | $20 |
 | Bitscope Rack | 1 | Rack | N/A | $950 |
 | USB-C Power cable | 1 | Power supply to the power supply | N/A | $16 |
@@ -38,7 +43,7 @@ We plan to set up a Grafana display on our team website for the supervising comm
 
 ## Software
 
-The operating system we have decided to use is Armbian 13 Trixie for the Raspberry Pi 4\. We used Ansible scripts to set up users and distribute ssh keys throughout the pi network to enable passwordless communication. Additionally, Ansible was used to install dependencies such as OpenMPI, G++, and OpenBLAS. We plan to install Slurm to schedule jobs and make sure we are using the cluster optimally.
+The operating system we have decided to use is Armbian 13 Trixie for the Raspberry Pi 4\. We are using the NVIDIA Jetpack for the Jetson Nanos and Debian 13 for the Kodlix. We used Ansible scripts to set up users and distribute ssh keys throughout the pi network to enable passwordless communication. Additionally, Ansible was used to install dependencies such as OpenMPI, G++, and OpenBLAS. We plan to install Slurm to schedule jobs and make sure we are using the cluster optimally.
 
 ## Benchmark and Application Strategy
 
