@@ -2,6 +2,6 @@
 
 [https://wiki.lustre.org/MDTest](https://wiki.lustre.org/MDTest)
 
-More information coming soon.
+Instructions: [https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/MDTest_Rules_SBCC_2026.pdf](../files/MDTest_Rules_SBCC_2026.pdf)
 
 Capture all relevant files/output and submit them. 
