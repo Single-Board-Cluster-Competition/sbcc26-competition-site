@@ -11,10 +11,11 @@ The _Single-Board Cluster Competition (SBCC)_ is a competition where teams from 
 | DAY | START | END | ACTIVITY |
 | ---- | ---- | ---- | ---- | 
 | Thursday | 8:00 am | 8:00 am (Friday) | Setup |
+| Friday | 8:00 am PDT | 8:30 AM PDT | Opening Ceremony |
 | Friday | 8:00 am | **1:00 pm** | Benchmarking |
 | Friday | 12:00 pm | 5:00 pm | Competition Begins - Applications |
 | Saturday | 8:00 am | 3:00 pm | Final Submissions Due |
-| Saturday | 5:00 pm | 6:00 pm | Awards Ceremony |
+| Saturday | 5:00 pm PDT | 6:00 pm PDT | Awards Ceremony |
 
 Notice that you can submit benchmarks one hour after application details are revealed. Here is the [FULL schedule](./schedule.md)
 
