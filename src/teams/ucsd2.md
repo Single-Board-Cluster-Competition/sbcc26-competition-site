@@ -10,7 +10,7 @@
 
 ## Hardware
 
-We plan to use one Raspberry Pi 4 as a login node, which will also act as a router. This node is the only node that can be accessed through the internet. The rest of the nodes will be connected to a switch through Ethernet connections, and can be accessed through the login node via ssh. We are connecting 4 SSDs to 4 Raspberry Pi 4s, 1 SSD to each Pi.
+We plan to use the Kodlix GN41 as a login node, which will also act as a router. This node is the only node that can be accessed through the internet. The rest of the nodes will be connected to a switch through Ethernet connections, and can be accessed through the login node via ssh. We are connecting 3/4 SSDs to each of the nodes.
 
 ## Power monitoring
 
@@ -20,30 +20,26 @@ We plan to set up a Grafana display on our team website for the supervising comm
 
 | Item | Amount | Purpose | Expected Power Draw | Price |
 | :---- | :---- | :---- | :---- | :---- |
-| Raspberry Pi 4B | 16 | Computing Equipment | 10W \* 16 \= 160W | $1200 |
-| Raspberry Pi 3 | 1 | Grafana Tracking | N/A | $35 |
-| Jetson Nano 4GB | 1 | Computing Equipment | 15W | $135 |
-| Jetson Nano 2GB | 1 | Computing Equipment | 15W | $59 |
-| Kodlix GN41 | 1 | Computing Equipment | 24W | $40 |
-| Lexar 64GB Micro SD | 16 | Storage | N/A | $224 |
-| NETGEAR 24-Port Gigabit Ethernet Unmanaged Switch (JGS524) | 1 | Switch | 40W | $150 |
+| Kodlix GN41 | 1 | Computing Equipment | 10W | $40 |
+| Board from Yoga 9i | 1 | Computing Equipment | 20W | $205 |
+| Board from Thinkbook 13x G1 | 1 | Computing Equipment | 15W | $150 |
+| Board from 500e G3 | 1 | Computing Equipment | 10W | $120 |
+| Board from Latitude 7420 | 1 | Computing Equipment | 10W | $150 |
+| TP-Link 8 Port Gigabit Switch (TL-SG108E) | 1 | Switch | 10W | $25 |
 | Intel SSD DC S4500 Series 240GB | 1 | Storage | 3W | $155 |
 | Intel SSD DC S3520 Series 240GB | 1 | Storage | 3W | $189 |
 | Intel SSD DC S3500 Series 300GB | 1 | Storage | 3W | $170 |
 | Intel SSD D3-S4510 Series 240GB | 1 | Storage | 3W | $154 |
-| Power Supply | 1 | Supply power | N/A | $90 |
-| Fan | 1 | Cooling | 10W | $20 |
-| Short ethernet cable | 19 | Switch Connection | N/A | $30.21 |
-| Long ethernet cable | 2 | Connection to outside internet | N/A | $20 |
-| Bitscope Rack | 1 | Rack | N/A | $950 |
-| USB-C Power cable | 1 | Power supply to the power supply | N/A | $16 |
-| Power Cables | 3 | Power supply to rack | N/A | $18.27 |
+| USB Nic | 4 | Connection | N/A | $40 |
+| Laptop Chargers | 4 | Supply power | N/A | $120 |
+| Fan | 1 | Cooling | 5W | $20 |
+| Short ethernet cable | 5 | Switch Connection | N/A | $8 |
+| Long ethernet cable | 1 | Connection to outside internet | N/A | $10 |
 | Power Strip | 1 | Outlet to the power supply and rack | N/A | $13 |
-| Additional RPI4 and SSDs Power | 4 | Power strip to RPI4 | N/A | $20 |
 
 ## Software
 
-The operating system we have decided to use is Armbian 13 Trixie for the Raspberry Pi 4\. We are using the NVIDIA Jetpack for the Jetson Nanos and Debian 13 for the Kodlix. We used Ansible scripts to set up users and distribute ssh keys throughout the pi network to enable passwordless communication. Additionally, Ansible was used to install dependencies such as OpenMPI, G++, and OpenBLAS. We plan to install Slurm to schedule jobs and make sure we are using the cluster optimally.
+We are using Debian 13 Trixie on all of our nodes. We used Ansible scripts to set up users and distribute ssh keys throughout the pi network to enable passwordless communication. Additionally, Ansible was used to install dependencies such as OpenMPI, G++, and OpenBLAS. We plan to install Slurm to schedule jobs and make sure we are using the cluster optimally.
 
 ## Benchmark and Application Strategy
 
