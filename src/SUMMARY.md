@@ -21,7 +21,7 @@
 - [MDTest Rules and Validation](./mdtest.md)
 - [IQ Tree Rules and Validation](./iqtree.md)
 - [Mystery Application Rules and Validation](./mystery.md)
-- [Sysadmin](./sysadmin.md)
+- [System](./system.md)
 - [Grading](./grading.md)
 - [Results](./results.md)
 - [About Us](./org.md)

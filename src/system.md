@@ -1,8 +1,14 @@
 # Systems Overview
 
-Systems interview was added as another part of the competition. This was a late add, so it will be judged warmly.
+The systems interview was added as another part of the competition. 
 
-Topics discussed will be the design, infrastructure, management, and other details that have gone into building and maintainging your system. Additionally, talking about the problems encountered along the way can be very telling of the effort behind the cluster. 
+Some topics that may be asked will be 
+- design decisions (including operating systems)
+- infrastructure (including power usage) 
+- management and security 
+- other details that have gone into building and maintainging your system
+
+Additionally, talking about the problems encountered along the way can be very telling of the effort behind the cluster. 
 
 Interviews will be around 10-15 minutes.
 
