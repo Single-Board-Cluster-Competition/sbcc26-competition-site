@@ -4,7 +4,7 @@ This site will contain all relevant info for competitors in terms of submissions
 
 The _Single-Board Cluster Competition (SBCC)_ is a competition where teams from all around the world compete using _single-board_ devices, and other similarly simple hardware, to create miniature supercomputing clusters. SBCC26 is the fourth competition. 
 
-## [Click here to watch the competition live!](./404.md)
+## [Click here to watch the competition live!](./live.html)
 
 ## Schedule <a id="schedule"></a>
 
