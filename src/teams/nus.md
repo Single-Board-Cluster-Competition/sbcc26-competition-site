@@ -42,22 +42,24 @@ The setup (including PDU) will also be livestreamed via video. We are happy to p
 
 ### Hardware Table 
 
-| Category | Item | Description | Amount | Expected Power Draw (W) | Cost per unit (USD) | Total Price (USD) |
+| Category | Item | Description | Quantity | Calculated Power Draw (W) | Cost per unit (USD) | Total Price (USD) |
 | ------- |-------- | ------- |------- |------- |------- |------- |
-| Compute | Orange Pi 5 Max 16GB  | Single-Board Computer (SBC) | 16 | 200 | 249.00 | 3984.00 |
-| Storage | Crucial T500 PCIe Gen4x4 NVMe M.2 SSD (1TB) | NFS Drive | 3 | 10 | 214.00 | 642.00 |
+| Compute | Orange Pi 5 Max 16GB  | Single-Board Computer (SBC) | 17 | 210 | 249.00 | 4233.00 |
+| Storage | Kioxia Exceria MicroSDHC U1 32GB | Operating System Drive | 17 | NA | 11.77 | 200.10 |
+| Storage | Intel® Optane™ Memory M10 Series (16GB) | Metadata / Log Drive | 4 | 4 | 5.00 | 20.00 |   
+| Storage | Crucial T500 PCIe Gen4x4 NVMe M.2 SSD (1TB) | NFS Drive (Fast) | 2 | 3 | 167.31 | 334.62 |
+| Storage | Crucial P310 PCIe Gen4x4 NVMe M.2 SSD (1TB) | NFS Drive (Cheap)| 1 | 1.5 | 164.00 | 164.00 |
 | Network | NICGIGA 24-Port 2.5G Ethernet Switch (S25-2400) | Network Switch | 1 | 15 | 249.99 | 249.99 |
-| Storage | Kioxia Exceria MicroSDHC U1 32GB | Operating System Drive | 16 | NA | 11.77 | 188.33 |
-| Storage | Crucial P310 PCIe Gen4x4 NVMe M.2 2280 SSD (1TB) | NFS Drive | 1 | 3.33 | 164.00 | 164.00 |
-| Power | DC5.5 x 2.1mm Female Jack to USB Type-C | Power Adapter | 16 | NA | 3.08 | 49.42 |
-| Cooling | ARCTIC P14 Pro PST, 5 Pack | Fans | 1 | 20 | 44.99 | 44.99 |
-| Power | DC Power Fuse Distribution Strip | Power Distribution | 3 | NA | 13.99 | 41.97 |
+| Power | DC5.5 x 2.1mm Female Jack to USB Type-C | Power Adapter | 17 | NA | 3.08 | 52.50 |
+| Power | DC Power Fuse Distribution Strip | Power Distribution | 2 | NA | 48.30 | 96.60 |
 | Power | Meanwell LRS-300-5V w UK Plug | Power source | 1 | NA | 36.34 | 36.34|
 | Power | 14AWG 100ft Electrical Wire | Power Cable | 2 | NA | 15.00 | 30.00 |
-| Network | Cat5E + Cat6 Cables (Various Lengths) | Network Cables | 16 | NA | 1.56 | 25 |
-| Cooling | 14x14x6mm and 22x22x10mm Heatsinks | Heatsinks | 16 | NA | 0.56 | 9.05 |
-| Power | DC5.5 x 2.1mm Male Jack | Power Adapter | 16 | NA | 0.28 | 4.55 |
-| Totals | | | | 248.33 | | 5469.64  |
+| Network | Cat5E + Cat6 Cables (Various Lengths) | Network Cables | 17 | NA | 1.56 | 26.56 |
+| Cooling | ARCTIC P14 Pro PST | Fans | 3 | 12 | 9.00 | 27.00 |
+| Cooling | 14x14x6mm and 22x22x10mm Heatsinks | Heatsinks | 17 | NA | 0.56 | 9.61 |
+| Casing | DIY 10" Server Rack (2020 Extrusion) | Server Rack | 1 | NA | 204.02 | 204.02|
+| Power | DC5.5 x 2.1mm Male Jack | Power Adapter | 17 | NA | 0.28 | 4.83 |
+| Totals | | | | 242.5 | 5689.17  |
 
 ## Software
 
@@ -78,7 +80,6 @@ The setup (including PDU) will also be livestreamed via video. We are happy to p
 ## Strategy
 
 ### Benchmarks / Applications
-
 
 1. **High Performance Linpack (HPL)**
     - HPL is installed and compiled with OpenBLAS.
@@ -101,11 +102,11 @@ The setup (including PDU) will also be livestreamed via video. We are happy to p
 
 | Name                            | Interests!                                                      | Responsibilities                                              |
 | ------------------------------- | --------------------------------------------------------------  | ------------------------------------------------------------- |
-| Muhammad Asyraf Bin Abdul Rahim | Motorsport / tinkering  / gaming                                | Hardware design, network management, thermal management       |
-| Lau Zhe Wen                     | Photography                                                     | Hardware procurement, optimizing IQ-TREE                      |
+| Muhammad Asyraf Bin Abdul Rahim | Motorsport / tinkering  / gaming                                | Hardware and system design & management, Ansible system admin |
+| Lau Zhe Wen                     | Photography                                                     | Hardware procurement, optimizing IQ-TREE and SLURM            |
 | Tan Yong Xiang                  | Likes climbing things                                           | Hardware procurement, power system design, optimizing IQ-TREE |
-| Mande Neil Ashvinikumar         | Networking (the ethernet kind) enthusiast                       | Network setup, optimising MDTest                              |
+| Mande Neil Ashvinikumar         | Networking (the ethernet kind) enthusiast                       | Network setup, optimising MDTest and BeeGFS                   |
 | Gabra Shubhan                   | Playing chess, playing cricket, travelling                      | Hardware procurement, power system design, optimizing D-LLAMA |
-| Chan Dong Jun                   | Stargazing                                                      | Ansible system administration, optimizing D-LLAMA             |
-| Joel Chong                      | Low latency systems, C++ enthusiast (very enthusiastic)         | Optimizing HPL, general software optimizations                |
-| Koh Tze Rui                     | Also likes climbing things                                      | Hardware procurement, optimizing HPL                          |
+| Chan Dong Jun                   | Stargazing                                                      | Ansible system admin, optimizing D-LLAMA and general software |
+| Joel Chong                      | Low latency systems, C++ enthusiast (very enthusiastic)         | Optimizing HPL, kernel, network and general software          |
+| Koh Tze Rui                     | Also likes climbing things                                      | Hardware procurement, optimizing HPL
