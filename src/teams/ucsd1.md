@@ -82,9 +82,9 @@ Mystery Application:
 
 ## **Team Details:**
 
-Srujam Dave
+Cecilia Li 
 
-- My name is Srujam Dave, a 3rd year Computer Engineering student at UC San Diego. I competed in SBCC 2025 as a team member, and am the team captain for UCSD’s SBCC Team 1 this year\! I’m interested in systems programming and computer architecture, working with hardware accelerators, and machine learning. 
+- My name is Cecilia Li. I’m a second-year Electrical Engineering student. I competed in SBCC 25 and SCC 25. I am interested in digital IC, ASIC design, and ML sys. I am working on HPL and IQ-Tree.
 
 Tom Lu
 
