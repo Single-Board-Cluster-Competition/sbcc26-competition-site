@@ -1,6 +1,6 @@
 # HPL
 
-HPL should be run with 4 nodes at a minimum. 
+HPL should be run with 4 nodes at a minimum. HPL will be graded on Flops per Watt. The wattage will be the peak power used during the run. 
 
 Please upload a copy of your .dat files and the output file produced.
 - Submit your *.dat file used for your submission run

@@ -1,7 +1,7 @@
 # Teams
 
-| Team | ORGANIZATION | LOCATION | TEAM MEMBERS |
-|----|----|----|----|
+| Team | ORGANIZATION | LOCATION | TEAM MEMBERS | Video Feed |
+|----|----|----|----|----|
 | [Aalborg Supercomputer Klub](./teams/aau.md) | Aalborg University | Aalborg, Denmark | Brian Ellingsgaard; Emil Kristensen Vorre; Sofie Finnes Øvreild; Tobias Sønder Nielsen |
 | [Crossroads Coders](./teams/iu-purdue.md) | Indiana University; Purdue University | Indiana, USA | Sky Angeles; Gautam Hari; Tri Nguyen; Ryan Jacobson; Dominic Yoder |
 | [GigaDawgs](./teams/mississippi.md) | Mississippi State University | Starkville, MS, USA | Isha Shrestha, Jamie Anderson, Kavya Gautam, Travis Greene, Anoop Mishra, Soyab Karki, Edward Cruz, Niraj Gupta | 
