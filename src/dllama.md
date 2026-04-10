@@ -15,3 +15,6 @@ Teams will benchmark the Qwen 3 8B Q40 model on provided prompts using the `dlla
 Teams will benchmark the Llama 3.1 8B Instruct Q40 model on provided prompts. For this task, teams are encouraged to explore possible optimization (such as modifications to the DLLAMA source code, alternative inference engines, or software/hardware advantages). Model throughput in this task will be evaluated in comparison to the teams' results in Task 1. For the leaderboard results, multinode runs are preferred and will be weighted accordingly. 
 
 Teams will be required to submit code for this task (ex. a fork of the source code repository) with **well-documented** changes and explanations of the optimizations made. The teams' effort and approach to optimization will be taken into account during scoring. Code submissions must be made before benchmarking begins (detailed guidance to come). 
+
+## Competition Instructions
+Here is the full document: [https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/SBCC26_D-LLAMA_Instructions.pdf](https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/SBCC26_D-LLAMA_Instructions.pdf)
