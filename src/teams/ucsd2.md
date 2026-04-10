@@ -23,7 +23,7 @@ We plan to set up a Grafana display on our team website for the supervising comm
 | Kodlix GN41 | 1 | Computing Equipment | 10W | $40 |
 | Board from Yoga 9i | 1 | Computing Equipment | 20W | $205 |
 | Board from Thinkbook 13x G1 | 1 | Computing Equipment | 15W | $150 |
-| Board from 500e G3 | 1 | Computing Equipment | 10W | $120 |
+| Board from Dell Precision 3490 | 1 | Computing Equipment | 20W | $800 |
 | Board from Latitude 7420 | 1 | Computing Equipment | 10W | $150 |
 | TP-Link 8 Port Gigabit Switch (TL-SG108E) | 1 | Switch | 10W | $25 |
 | Intel SSD DC S4500 Series 240GB | 1 | Storage | 3W | $155 |
