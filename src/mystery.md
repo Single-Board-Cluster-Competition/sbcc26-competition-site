@@ -1,15 +1,8 @@
 # Mystery App
 
-⚫⚫⚫
+The mystery application for this year is ICON! ICON is a high performance climate prediction, weather forecasting, and environmental emulation application framework. 
 
-Just like SCC, here is a random string for mystery app.
+Read more about this application [here](https://www.icon-model.org/)!
 
-xxx xxxxxxxxxxxx xxxxx xxxx xx x xxxxxxxxxx xxxxxxx xxxxxxxx xxxx xxxx xxxxxxxxxxxxx xxxx xxxx xxxxxxxxx xx xx xxxxxxxxxx 
-
-xxx xxxxxxx xxxxxxxxxxx xx xxxxxxxxx xxxxx xxxxx x xxx xxxxxx xxxxxxxxxx xxxxxxxxx xxx xxxx xx xxxxxxxx xxx
-
-xxxxxx xxxx xxxx xxxx xxxxx xxxx xx xxxxxxxxx
-
-xxx xx xxxxx xxxxx xxxx xxxx xxxxx xx xx xxxxxxxx
-
-xx xxxx x xxxx xx xxxx xxx xxxxx
+## Competition Instructions
+Here is the full document: [https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/Mystery_APP.pdf](https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/Mystery_APP.pdf)

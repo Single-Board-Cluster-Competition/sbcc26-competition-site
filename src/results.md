@@ -1,6 +1,8 @@
 # 🏆 SBCC25 Final Results
 
-Below are the **top 3 teams in each category**, along with their respective scores:
+Below are the **top 3 teams in each category**:
+
+---
 
 ## 🔢 HPL (High Performance Linpack)
 1. 🥇 **NTHU** 

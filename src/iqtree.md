@@ -12,3 +12,6 @@ Source code: [https://github.com/iqtree/iqtree2](https://github.com/iqtree/iqtre
 Teams will be provided with a set of datasets and tasks at the beginning of the application period. Please refer to the IQ-TREE documentation, including the [beginner tutorial](https://github.com/iqtree/iqtree2/wiki/Tutorial) and the [advanced tutoral](https://github.com/iqtree/iqtree2/wiki/Advanced-Tutorial) for examples of possible tasks. Teams are expected to use IQ-TREE version 2.4.0. Any modifications to the source code must be disclosed to and approved by the committee by April 3rd. 
 
 We are also planning an interview component where teams will be able to demonstrate their understanding of the IQ-TREE software. In the week before the competition, the committee will reach out to schedule a short interview that will occur while the teams are completing application tasks. 
+
+## Competition Instructions
+Here is the full document: [https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/SBCC26_IQ-TREE_Instructions.pdf](https://single-board-cluster-competition.github.io/sbcc26-competition-site/files/SBCC26_IQ-TREE_Instructions.pdf)
