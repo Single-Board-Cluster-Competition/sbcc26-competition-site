@@ -3,6 +3,37 @@
     <head>
         <meta charset = "UTF-8">
         <title>404 Not Found</title>
+        <style>
+            #zoomies {
+                display: inline-block; 
+                white-space: nowrap;
+                
+                transform: translateX(-100vw);
+
+                /* animation | duration | timing | delay | iteration | fill-mode */
+                animation: flyBy 0.5s linear 0s 1 forwards;
+            }
+
+            @keyframes flyBy {
+                0% {
+                    transform: translateX(100vw);
+                    opacity: 1;
+                }
+                99% {
+                    transform: translateX(-100vw);
+                    opacity: 1;
+                    width: auto;
+                    height: auto;
+                }
+                100% {
+                    transform: translateX(-100vw);
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    margin: 0;
+                    padding: 0;
+            }
+        </style>
     </head>
     <body>
         <h1>
@@ -13,6 +44,9 @@
         </h2>
         <p>
             The page you tried to find does not exist. Did you try accessing a page that you were not supposed to? Be a good person and go back. 
+        </p>
+        <p id="zoomies">
+            Gauri was jolly and cute during comp...
         </p>
     </body>
 </html>
