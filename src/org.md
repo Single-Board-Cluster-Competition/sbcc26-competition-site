@@ -13,7 +13,7 @@ We would like to thank all the previous competition organizers for their contrib
 
 - Francisco Fabian "Paco" Gutierrez Lopez
 - Khai Vu
-- Ritoban Roy-Chowdhury
+- Ritoban Kumar Roy-Chowdhury
 - Benjamin Li
 - Casper Nyvang Sørensen
 - Zixian Wang
